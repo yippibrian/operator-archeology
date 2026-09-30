@@ -1,133 +1,62 @@
 # Operator Archaeology
 
-**A working manuscript on ancient procedural media, invariant-based reasoning, and the prehistory of mathematical thought**
+**Procedural Media, Reasoning, and Authority — From Historical Practices to AI**
 
-[Read the current PDF draft: `operator-archeology.pdf`](./operator-archeology.pdf)
+[**Read the essay (PDF)**](operator-archeology.pdf) · [LaTeX source](operator-archeology.tex)
 
-## Overview
+How do people put reasoning into external structures—and what happens when the outputs of those structures acquire authority?
 
-This repository contains a first-draft working manuscript exploring what I call **operator archaeology**: a method for studying ancient symbolic, ritual, numerical, architectural, game, calendrical, textual, and diagrammatic systems as possible **procedural media**.
+This public-facing essay introduces my research program through selected historical examples and their implications for contemporary AI. A board can preserve positions, a table can support a calculation, and a diagram can organize questions. Understanding the procedure is one task; establishing what its outputs justify is another.
 
-I have always been fascinated by ancient mysteries, the history of mathematics, and the ways early cultures used numbers, diagrams, games, ritual, architecture, calendars, and stories to organize knowledge. This project is my attempt to think carefully about how mathematical reasoning may have developed out of older practices for tracking cycles, preserving memory, coordinating action, correcting drift, and navigating uncertainty.
+The essay is intended for readers interested in history, philosophy, software architecture, and AI. It requires no specialist mathematical background. The body is approximately 7,200 words, followed by references.
 
-The manuscript does **not** argue that ancient myths, rituals, monuments, or diagrams secretly encode modern mathematics. It also does **not** claim that all ancient symbolic systems belong to a single hidden tradition.
+## The journey
 
-Instead, it asks a more limited methodological question:
+The essay begins with reasoning outside the head and a practical account of operator archaeology: identify a source, specify a proposed procedure, expose interpretive choices, and test what the evidence supports.
 
-> When do ancient artifacts preserve repeatable operations, and how can we discuss those operations without collapsing evidence, analogy, reconstruction, and speculation?
+Astronomical calculation, the twenty-square game, Egyptian passage texts, and the Antikythera mechanism illustrate different relationships among objects, rules, and users. Ramon Llull provides the central case: his Art makes the ambition to organize thought explicit, while showing why a vocabulary and its commitments are part of a reasoning instrument.
 
-## The Core Idea
+Trithemius and John Dee sharpen the distinction between reproducible procedure, recorded instruction, and historical interpretation. Leibniz introduces another ambition to make reasoning calculable. The final sections turn to AI: representation adequacy, independent justification, authority to act, and the difference between correcting a record and repairing consequences.
 
-Modern categories often separate things that may have been more closely connected in ancient practice:
+The historical arc compares problems and procedures across different settings. Specific claims rest on external sources, with the focused papers available for deeper study. Historical findings and contemporary philosophical arguments retain their separate grounds.
 
-- number
-- ritual
-- calendar
-- architecture
-- diagram
-- game
-- oracle
-- table
-- cipher
-- story
-- machine
+## Three central distinctions
 
-This manuscript explores whether some of these systems can be read as **operator systems**: repeatable procedures for changing state, preserving memory, tracking cycles, validating transitions, correcting drift, generating correspondences, or orienting action under uncertainty.
+- **Procedure and meaning:** describing an operation does not exhaust the significance of a historical practice.
+- **Representation and source:** a summary or classification must preserve the distinctions needed for its intended use.
+- **Output and authority:** producing an answer, justifying it, and authorizing action require different support.
 
-The point is not to make the ancient world look modern. The point is to recover forms of procedural intelligence that may be difficult to see when we separate mathematics, ritual, myth, art, architecture, and computation into modern disciplinary categories.
+My background in software architecture and application security informs these questions. The essay presents this perspective as an analytical approach that must earn its value through source work, explicit models, and correctable claims.
 
-## My Angle
+## Explore the research
 
-My background is in software architecture, application security, state machines, invariant checking, and evaluation methodology. That shapes the way I approach this material.
+| Route | Read next |
+|---|---|
+| Reconstruction method | [Operator Archaeology: A Protocol for Bounded Reconstruction of Procedural Media](https://github.com/yippibrian/history/tree/main/00-methodology/01-operator-archaeology) |
+| Historical thesis and focused evidence | [History paper stack](https://github.com/yippibrian/history) |
+| Llull, mathematical comparison, and operator families | [From Number to Operator](https://github.com/yippibrian/history/tree/main/01-ancient-operator-systems/10-number-to-operator) |
+| Early-modern procedures and unresolved source questions | [Steganographia](https://github.com/yippibrian/history/tree/main/04-early-modern-cryptography/01-trithemius-steganographia) and [John Dee](https://github.com/yippibrian/history/tree/main/04-early-modern-cryptography/02-john-dee) |
+| Representation and reconstructible reasoning | [Structural Reliability Under Projection](https://github.com/yippibrian/reconstructibility-under-projection/tree/main/01-reconstruction/01-reconstruction-under-projection) |
+| Governed AI workflows | [Governed Reasoning Bundles](https://github.com/yippibrian/reconstructibility-under-projection/tree/main/02-shared/05-governed-bundles) |
+| Judgment and responsibility | [Between Caves](https://github.com/yippibrian/reconstructibility-under-projection/tree/main/03-philosophy/01-caves) and [The Controller](https://github.com/yippibrian/reconstructibility-under-projection/tree/main/03-philosophy/03-controller) |
 
-Some examples of the kinds of questions this manuscript explores:
+## Status and provenance
 
-- Can games be studied as playable state machines?
-- Can ritual sequences be understood as structured runtimes with initialization, transition, validation, and closure?
-- Can calendars be read as drift-correction systems?
-- Can diagrams and tables preserve transformations rather than merely represent ideas?
-- Can oracle systems be analyzed as decision procedures under uncertainty?
-- Can ancient number systems be understood not only as quantity systems, but as behavioral tools for grouping, decomposing, cycling, and correcting?
+This is a revised public essay, September 2026. It replaces the original book-length working manuscript as this repository's main reading entry point. The original source and PDF are preserved unchanged in [archive/](archive/README.md).
 
-These are hypotheses and interpretive tools, not settled claims.
+The essay draws on published sources and the reorganized research stack. Hypothetical teaching examples and proposed workflows are identified in the text. It reports no new historical replay, corpus experiment, or user study. The focused manuscripts retain their own evidence boundaries and open questions.
 
-## What This Is
+## Build
 
-This is:
+With a LaTeX distribution and `latexmk` installed:
 
-- a first-draft working manuscript
-- a research notebook in public form
-- a methodological experiment
-- an attempt to apply invariant-based reasoning across historical and symbolic domains
-- a way of developing better questions about the relationship between ancient procedural systems and the later emergence of formal mathematics
+```sh
+make
+```
 
-## What This Is Not
-
-This is **not**:
-
-- a finished scholarly monograph
-- a hidden-code theory
-- a claim that ancient myths were “really math”
-- a claim that ritual, religion, or art reduce to computation
-- a claim that all ancient systems derive from one secret tradition
-- a claim that every numerical pattern is meaningful
-- a replacement for careful historical, archaeological, philological, or mathematical scholarship
-
-Some sections are relatively polished. Others are sketches, notes, or speculative frontier cases. The manuscript is intentionally marked as a working draft because the goal is to make the thinking visible and correctable.
-
-## Claim Levels
-
-One of the central concerns of the project is avoiding overclaiming.
-
-The manuscript distinguishes between different levels of confidence, including:
-
-- **Attested procedures** — operations directly supported by historical or material evidence.
-- **Structural reconstructions** — plausible reconstructions based on surviving structure and known use-contexts.
-- **Operator hypotheses** — proposed repeatable transformations that may explain a system’s structure or function.
-- **Extracted primitives** — useful conceptual tools drawn from a case, even when the historical reconstruction remains uncertain.
-- **Speculative frontier cases** — exploratory examples included to test the limits of the method, not to prove the whole argument.
-
-The goal is to keep these levels separate. A speculative case may still yield a useful primitive, but that does not automatically validate the historical reconstruction.
-
-## Working Principle
-
-The guiding question of the project is not only:
-
-> What did this symbol mean?
-
-but also:
-
-> What did this system do?
-
-That shift matters. A calendar, ritual, diagram, game, or oracle may not simply express belief. It may also preserve a procedure, train a pattern of action, coordinate a social process, or manage drift between different cycles of time and meaning.
-
-## Current Status
-
-The PDF is currently a working draft.
-
-It is long, uneven, and still under revision. Some chapters are closer to essay form; others are closer to organized notes. I am sharing it publicly because I think the central method is worth developing in the open, and because criticism is useful at this stage.
-
-The current draft can be read here:
-
-[**operator-archeology.pdf**](./operator-archeology.pdf)
-
-## Why Put This Publicly?
-
-I am publishing this draft because it reflects a broader research interest of mine: applying invariant-based reasoning across domains.
-
-In software and security, invariants help distinguish valid states from invalid ones, expected transitions from dangerous ones, and correctable errors from structural failures. This manuscript asks whether similar habits of thought can help us read ancient procedural systems more carefully.
-
-The ambition is not to prove a grand theory of everything. The ambition is to build a disciplined way to ask better questions.
+This builds the current essay from `operator-archeology.tex`. The archive is excluded from the build. `make clean` removes intermediate files; `make distclean` also removes the current PDF.
 
 ## Feedback
 
-Feedback is welcome, especially on:
+Feedback is welcome on source readings, comparisons that obscure historical differences, distinctions needing clearer examples, and places where the AI argument requires stronger support. Please identify the passage and, where possible, the source or alternative explanation that would improve it.
 
-- places where the manuscript overstates the evidence
-- cases where the claim level should be lowered
-- examples that need better historical support
-- unclear terminology
-- stronger examples of procedural media in ancient systems
-- better ways to distinguish useful analogy from unsupported speculation
-
-The project is meant to be revised.
