@@ -42,7 +42,7 @@ My background in software architecture and application security informs these qu
 
 ## Status and provenance
 
-This is a revised public essay, September 2026. It replaces the original book-length working manuscript as this repository's main reading entry point. The original source and PDF are preserved unchanged in [archive/](archive/README.md).
+This is a revised public essay, September 2026. It replaces the original book-length working manuscript as this repository's main reading entry point. The original book-length working manuscript has been moved into the private history archive; this public repository now contains only the maintained public essay and its build files.
 
 The essay draws on published sources and the reorganized research stack. Hypothetical teaching examples and proposed workflows are identified in the text. It reports no new historical replay, corpus experiment, or user study. The focused manuscripts retain their own evidence boundaries and open questions.
 
